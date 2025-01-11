@@ -13,10 +13,13 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
+# 名称长度限制,最大为1024字节
 NAME_LENGTH_LIMIT = 2 ** 10
 
+# 图片Base64编码的前缀标识
 IMG_BASE64_PREFIX = 'data:image/png;base64,'
 
+# 服务配置文件的名称
 SERVICE_CONF = "service_conf.yaml"
 
 API_VERSION = "v1"
